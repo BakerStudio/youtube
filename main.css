@@ -1,0 +1,88 @@
+body {
+  padding-top: 20px;
+  font-family:  Roboto;
+  background-color:  black;
+  color:  white;
+}
+
+.centerit {
+	text-align: center;
+}
+
+.js-link {
+	margin-left:  10px;
+	margin-right: 10px;
+	border:  1px solid black;
+}
+
+.js-link:hover {
+	cursor: pointer;
+	border: 5px solid red;
+}
+
+.clearit {
+	margin-top: 20px;
+	clear: left;
+}
+
+input {
+	padding-top: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	font: 20px;
+	color:  white;
+}
+
+.hidden {
+	display: none;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: #ff6666;
+  color: black;
+}
+
+.button {
+	color: black;
+	font-size: 14px;
+	background-color: #ffff99;
+	border: 1px solid black;
+	text-decoration: none;
+	padding: 5px;
+	margin-top: 10px;
+	border-radius: 25px;
+}
+
+.js-response-box {
+	background-color: #ffffe6;
+	height:  400px;
+	width:  340px;
+	border:  1px solid red;
+	margin:  10px;
+	padding-left:  10px;
+	padding-right:  10px;
+	float:  left;
+}
+
+.js-search {
+	color:  white;
+}
+
+.js-value {
+	color:  black;
+}
+ 
+.js-title {
+	color:  blue;
+}
+
+.js-desc {
+	font-size: 15px;
+	color:  black;
+}
+
+.body-container {
+	padding:  auto;
+}

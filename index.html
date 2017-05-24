@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+	<title>YouTube Challenge</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <h2 class="centerit">Custom YouTube Search</h2>
+
+  <div class="body-container centerit">
+
+  	<div class="search-container centerit">
+  		<form id="js-search">Topic
+    		<input class="js-value" type="text" name="subject">
+   			<button class="button" type="submit" value="topic">Search</button>
+  	  </form> 
+  	</div>
+
+    <div class="js-response-container">
+    </div>
+
+    <div class="button-container centerit clearit">
+      <a class='js-prev button hidden' type='button'>&lt; Previous</a>
+      <a class='js-next button hidden' type='button'>Next &gt;</a>
+    </div>
+
+  </div> <!-- end of body-container -->
+
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" 
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" 
+        crossorigin="anonymous"></script>
+  <script src="index.js"></script>
+
+</body>
+</html>
